@@ -45,10 +45,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
-              My Projects
+              Projects by Yokesh
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              A showcase of my latest work and creative projects
+              A curated collection of web apps, tools & experiments
             </p>
           </div>
         </div>
@@ -109,8 +109,20 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="text-center text-gray-600 dark:text-gray-400">
-            <p>&copy; 2024 My Projects. Built with Next.js and Tailwind CSS.</p>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-600 dark:text-gray-400">
+            <span>© 2026 Yokesh KS. All rights reserved.</span>
+            <span className="hidden md:block">•</span>
+            <span className="flex items-center gap-1">
+              Made with <span className="text-red-500 animate-pulse">♥</span> by
+              <a
+                href="https://www.yokesh.in/?utm_source=projects.yokesh.in&utm_medium=website&ref=projects.yokesh.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 ml-1"
+              >
+                Yokesh
+              </a>
+            </span>
           </div>
         </div>
       </footer>

@@ -44,6 +44,14 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
   const IconComponent = getIconComponent(project.icon);
 
+  const getTrackingUrl = (baseUrl: string) => {
+    const url = new URL(baseUrl);
+    url.searchParams.set('utm_source', 'projects.yokesh.in');
+    url.searchParams.set('utm_medium', 'website');
+    url.searchParams.set('ref', 'projects.yokesh.in');
+    return url.toString();
+  };
+
   return (
     <div
       className={`relative group bg-white dark:bg-gray-900 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden border border-gray-200 dark:border-gray-700 ${isHovered ? 'scale-105' : ''}`}
@@ -122,7 +130,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
 
         {/* Link */}
         <a
-          href={project.url}
+          href={getTrackingUrl(project.url)}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium transition-colors"

@@ -52,14 +52,14 @@
       "favicon_url": "https://stream.ingeniousclan.com/icon.png"
     },
     {
-      "id": "postal-codes",
-      "title": "Postal Codes",
-      "description": "A comprehensive postal code lookup and search tool providing detailed information about postal codes, including location data and geographic details.",
-      "url": "https://postal-codes.ingeniousclan.com/",
+      "id": "post-office",
+      "title": "Post Office",
+      "description": "A comprehensive post office lookup and search tool providing detailed information about post offices, including location data and geographic details.",
+      "url": "https://postoffice.ingeniousclan.com/",
       "status": "live",
       "category": "Developer Tools",
       "tags": [
-        "Postal Codes",
+        "Post Office",
         "Location",
         "Search",
         "Utility"
