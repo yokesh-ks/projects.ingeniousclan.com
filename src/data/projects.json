@@ -1,0 +1,136 @@
+{
+  "projects": [
+    {
+      "id": "npm-stats",
+      "title": "NPM Stats",
+      "description": "A free analytics platform for npm packages providing detailed insights into download metrics, bundle size analysis, dependency visualization, and security scanning.",
+      "url": "https://npmstats.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "npm",
+        "Analytics",
+        "Packages",
+        "Developer Tools"
+      ],
+      "icon": "lucide:bar-chart-2",
+      "gradient": "from-indigo-500 to-violet-500",
+      "favicon_url": "https://npmstats.ingeniousclan.com/favicon.ico"
+    },
+    {
+      "id": "domain-explorer",
+      "title": "Domain Explorer",
+      "description": "A comprehensive domain research tool offering advanced search, WHOIS lookup, DNS record analysis, and domain availability checking for informed domain management.",
+      "url": "https://domain-explorer.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "Domain",
+        "WHOIS",
+        "DNS",
+        "Utility"
+      ],
+      "icon": "lucide:globe",
+      "gradient": "from-teal-500 to-cyan-500",
+      "favicon_url": "https://domain-explorer.ingeniousclan.com/favicon.ico"
+    },
+    {
+      "id": "ingenious-stream",
+      "title": "Ingenious Stream",
+      "description": "An entertainment streaming platform providing access to live TV channels, radio broadcasts from around the world, and a movie library in multiple languages.",
+      "url": "https://stream.ingeniousclan.com/",
+      "status": "live",
+      "category": "Entertainment",
+      "tags": [
+        "Streaming",
+        "TV",
+        "Movies",
+        "Radio"
+      ],
+      "icon": "lucide:play-circle",
+      "gradient": "from-rose-500 to-pink-500",
+      "favicon_url": "https://stream.ingeniousclan.com/icon.png"
+    },
+    {
+      "id": "postal-codes",
+      "title": "Postal Codes",
+      "description": "A comprehensive postal code lookup and search tool providing detailed information about postal codes, including location data and geographic details.",
+      "url": "https://postal-codes.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "Postal Codes",
+        "Location",
+        "Search",
+        "Utility"
+      ],
+      "icon": "lucide:map-pin",
+      "gradient": "from-red-500 to-orange-500",
+      "favicon_url": "https://postoffice.ingeniousclan.com/logo.png"
+    },
+    {
+      "id": "react-learn",
+      "title": "React Learning Hub",
+      "description": "An interactive learning platform designed to help developers master React through hands-on examples, tutorials, and real-world projects.",
+      "url": "https://react.learn.ingeniousclan.com",
+      "status": "live",
+      "category": "Education",
+      "tags": [
+        "React",
+        "Learning",
+        "Tutorial",
+        "Frontend"
+      ],
+      "icon": "lucide:book-open",
+      "gradient": "from-purple-500 to-pink-500"
+    },
+    {
+      "id": "medusa-plugins",
+      "title": "Medusa Plugins",
+      "description": "A comprehensive collection of powerful plugins for Medusa e-commerce platform, extending functionality and enhancing your online store capabilities.",
+      "url": "https://medusa.plugins.ingeniousclan.com",
+      "status": "live",
+      "category": "E-commerce",
+      "tags": [
+        "Medusa",
+        "Plugins",
+        "E-commerce",
+        "Backend"
+      ],
+      "icon": "lucide:package",
+      "gradient": "from-blue-500 to-cyan-500"
+    },
+    {
+      "id": "markdown-live-preview",
+      "title": "Markdown Live Preview",
+      "description": "A live markdown preview tool that allows you to write markdown and see the rendered output in real-time, perfect for documentation and content creation.",
+      "url": "https://markdown-live-preview.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "Markdown",
+        "Preview",
+        "Developer Tools",
+        "Utility"
+      ],
+      "icon": "lucide:file-text",
+      "gradient": "from-green-500 to-emerald-500"
+    },
+    {
+      "id": "html-code-editor",
+      "title": "HTML Code Editor",
+      "description": "A feature-rich HTML code editor with live preview, syntax highlighting, and code formatting capabilities for building and testing HTML projects.",
+      "url": "https://html-code-editor.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "HTML",
+        "Code Editor",
+        "Live Preview",
+        "Developer Tools"
+      ],
+      "icon": "lucide:code",
+      "gradient": "from-orange-500 to-red-500"
+    }
+  ]
+}
