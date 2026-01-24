@@ -131,6 +131,22 @@
       ],
       "icon": "lucide:code",
       "gradient": "from-orange-500 to-red-500"
+    },
+    {
+      "id": "cleanmark",
+      "title": "CleanMark",
+      "description": "A markdown editor and documentation tool that helps you create clean, well-formatted markdown content with live preview capabilities.",
+      "url": "https://cleanmark.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "Markdown",
+        "Documentation",
+        "Editor",
+        "Developer Tools"
+      ],
+      "icon": "lucide:pencil",
+      "gradient": "from-blue-500 to-indigo-500"
     }
   ]
 }
